@@ -1,0 +1,14 @@
+username: "user@email.com"
+password: "pass"
+keyName: "token_key_name_at_the_last_pass"
+resources:
+  nuget:
+    sources:
+      - "https://your_artifactory_url/api/nuget/dev-nuget-ci"
+      - "https://your_artifactory_url/artifactory/api/nuget/dev-nuget-release"
+  npm:
+    registryName: "@company"
+    sources:
+      - "https://your_artifactory_url/api/npm/dev-npm-release"
+    projects:
+      - /Users/osoykan/Projects/company/project/src/webapps
